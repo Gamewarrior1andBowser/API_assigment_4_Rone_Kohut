@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link rel="stylesheet" href="./assets/style/index.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
-        <link rel="icon" href="./assets/media/stride-logo.png" type="image/x-icon">
+        <link rel="icon" href="./assets/media/favicon.jpg" type="image/x-icon">
         <title>Waddle shipping</title>
         <script src="./assets/script/app.js" defer></script>
     </head>
@@ -18,7 +18,7 @@
                     <div class="container">
                         <div class="company-header-container">
                             <div class="company-logo-name">
-                                <img src="./assets/media/stride-logo.png" alt="logo">
+                                <img src="./assets/media/favicon.jpg" alt="logo">
                                 <h1>Waddle Shipping</h1>
                             </div>
                             <div class="search-container">
@@ -48,39 +48,12 @@
             <div id="overlay"></div>
             <div class="hero-content">
                 <div class="hero-flex-col">
-                    <h2>One step at a time, every step with Stride</h2>
+                    <h2>One package at a time, Dee-livered with effeciency!</h2>
                     <div class="hero-buttons">
-                        <a href="#products"><div id="shop">Shop</div></a>
+                        <a href="#track"><div id="shop">Track a Package</div></a>
                         <a href="#about-section"><div id="about-us">About us</div></a>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="container">
-            <div id="modal" class="modal hidden">
-                <div class="modal-content hidden">
-                   <div class="login-dialog" id="loginDialog">
-            <div class="login-box">
-                <div class="x-container">
-                    <i id="x" class="fa-solid fa-x"></i>
-                </div>
-                <h2>Login</h2>
-                <form id="loginForm">
-                    <div class="login-flex">
-                        <div class="login-flex-col">
-                            <label>Email:</label>
-                            <input class="login-input" type="email" placeholder="email@email.org" required>
-                        </div>
-                        <div class="login-flex-col">
-                            <label>Password:</label>
-                            <input class="login-input" type="password" required>
-                        </div>
-                    </div>
-                    <div class="login-buttons">
-                        <button type="submit" class="submit-login">Login</button>
-                        <div class="create-login">Create Account</div>
-                    </div>
-                </form>
             </div>
         </div>
         </div>
@@ -88,181 +61,62 @@
             <div class="about" id="about-section">
                 <div class="about-content-container">
                     <div>
-                        <h3>About Stride</h3>
-                        <p>Here at Stride, we bring you the latest and greatest footwear from your favorites. We provide top brands like Nike, Adidas and many more. All in one place, so you can find the perfect pair for every style and every step. Whether it's quality, variety or pride, we want you to choose Stride.</p>
+                        <h3>About Waddle Shipping</h3>
+                        <p>Here at Waddle Shipping, we bring you the guarentee that your packages will arrive to it's destination safely. We ship anywhere without heavy shipping costs. Safety and Affordability all in one place, so you can relax with the knowledge that we've got your back. Whether it's quality, variety or pride, we want you to choose us.</p>
                         <div class="learn-more"><a href="details.html">Learn more!</a></div>
                     </div>
-                    <img src="./assets/media/nike-shoes-about.jpeg" alt="Nike shoes">
+                    <img src="./assets/media/character.png" alt="Employee">
                 </div>
             </div>
             <section>
                 <div class="deal-container" id="products">
-                    <h3>Our Black Friday Special</h3>
+                    <h3>Our High Quality Packages</h3>
                     <div class="deals">
                         <div class="deal-item">
-                            <img src="./assets/media/corporate mens shoe.webp" alt="corporate men's shoe" height="200" width="200">
+                            <img src="./assets/media/package_2.jpg" alt="package side" height="200" width="200">
                             <div>
-                                <p>Men's Leather Dress Shoes - $124.99</p>
-                                <p>Classic Brown leather oxfords</p>
-                                <div class="buy-now">Buy Now</div>
+                                <p>Multisized packages.</p>
+                                <p>Can fit up to 5ft x 5ft items.</p>
                             </div>
                         </div>
                         <div class="deal-item">
-                            <img src="./assets/media/corporate womens shoe.webp" alt="corporate women's shoe" height="200" width="200">
+                            <img src="./assets/media/package_1.jpg" alt="package front" height="200" width="200">
                             <div>
-                                <p>Women's Open-Toe Heels - $85.99</p>
-                                <p>Sleek grey heeled sandals</p>
-                                <div class="buy-now">Buy Now</div>
+                                <p>Built-in security and tracking.</p>
+                                <p>Prevents theft, damage or loss.</p>
                             </div>
                         </div>
                         <div class="deal-item">
-                            <img src="./assets/media/corporate kids shoe.webp" alt="corporate kid's shoe" height="200" width="200">
+                            <img src="./assets/media/package_3.jpg" alt="package back" height="200" width="200">
                             <div>
-                                <p>Kids' Loafers - $40</p>
-                                <p>Comfortable black loafers</p>
-                                <div class="buy-now">Buy Now</div>
+                                <p>Tough, durable material.</p>
+                                <p>Able to withstand any weather.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <section>
-                <div class="shoe-fit-container">
-                    <div class="mens-container">
-                        <img class="shoe-fit" src="./assets/media/nike-man.avif" alt="Image of a Man for mens section">
-                        <div class="shop-fit">Shop Mens</div>
+                <div class="deal-container" id="Track">
+                    <h3>Track your package with ease!</h3>
+                    <form class="contact-form" novalidate>
+                    <div class="form-flex">
+                        <div class="left-side-form">
+                            <div class="form-info">
+                                <input class="form-input" type="text" id="name" name="name" required minlength="2" placeholder="Full Name">
+                            </div>
+                            <div class="form-info">
+                                <input class="form-input" type="email" id="email" name="email" required placeholder="Email@example.com">
+                            </div>
+                            <div class="form-info">
+                                <input class="form-input" type="code" id="code" name="code" required placeholder="6-number code">
+                            </div>
+                        </div>
+                        <div id="map" class="map">
                     </div>
-                    <div class="womens-container">
-                        <img class="shoe-fit" src="./assets/media/woman-shoe.webp" alt="Image of a woman for womens section">
-                        <div class="shop-fit">Shop Women</div>
                     </div>
-                    <div class="kids-container">
-                        <img class="shoe-fit" src="./assets/media/kid-shoe.jpg" alt="Image of a child for kids section">
-                        <div class="shop-fit">Shop Kids</div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="shoe-display-container">
-                    <h3>Nike</h3>
-                    <div class="shoe-display-flex">
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/af1.avif" alt="first flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Air Force 1</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/metcon.avif" alt="second flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Free Metcon 6</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/air-max.avif" alt="third flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Air Max 90</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/zoom-peg.avif" alt="fourth flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Pegasus 41</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/zoom-vo.avif" alt="fifth flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Zoom Vomero 5</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/dunk-low.avif" alt="sixth flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Dunk Low Retro</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/shox.avif" alt="seventh flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Shox R4</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/pegasus.avif" alt="eigth flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Pegasus 41 SE</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/vintage.avif" alt="ninth flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Air Force 1 '07 Vintage</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/book1.avif" alt="tenth flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Book 1</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="shoe-display-container">
-                    <h3>Adidas</h3>
-                    <div class="shoe-display-flex">
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/low-cl.avif" alt="first flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Forum Low CL</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/campus_001.avif" alt="second flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Campus 00s</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/gazelle.avif" alt="third flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Gazelle</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/og.avif" alt="fourth flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Samba OG</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/aqua.avif" alt="fifth flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Adilette Aqua Slides</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/sambae.avif" alt="sixth flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Sambae</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/samba-white.avif" alt="seventh flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Sambae</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/spez.avif" alt="eigth flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Handball Spezial</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/minecraft.avif" alt="ninth flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Minecraft Fortarun</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/gazelle-brn.avif" alt="tenth flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Gazelle Bold</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="shoe-display-container">
-                    <h3>Timberland</h3>
-                    <div class="shoe-display-flex">
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/timb.avif" alt="first flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Timberland Premium</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/timb-light.avif" alt="second flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Timberland Pro</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/timb-pro.avif" alt="third flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Boondock CSA</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/timb-blck.avif" alt="fourth flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Timberland Premium</div>
-                        </div>
-                        <div class="nike-shoe-display">
-                            <img src="./assets/media/motion.avif" alt="fifth flag piece" class="nike-shoe-img">
-                            <div class="nike-shoe-name">Motion Access</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="deal-container">
-                    <div id="map" class="map">
-                    </div>
+                    <button type="submit" class="form-submit">Track Package</button>
+                </form>
                 </div>
             </section>
             <section class="contact-section" id="contact">

@@ -7,7 +7,7 @@
 }
 
 .map {
-    height: 50svh;
+    height: 25svh;
     width: 50%;
 }
 
@@ -159,40 +159,6 @@ i:hover {
 }
 
 /*********************************/
-/*            Modal              */
-/*********************************/
-
-#modal {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-    color: #fff;
-}
-
-.modal-content {
-    padding: 20px 20px;
-    border-radius: 5px;;
-    background-color: #1f2229;;
-}
-
-#modal.hidden, .modal-picture.hidden, .modal-content.hidden {
-    display: none;
-}
-.login-flex, .login-buttons {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-}
-
-.login-buttons {
-    justify-content: center;
-}
-
-/*********************************/
 /*            Hero               */
 /*********************************/
 
@@ -237,7 +203,7 @@ body {
     position: relative;
     width: 100%;
     height: calc(100svh - 60px);
-    background: url(../media/hero-img.jpg) center / cover no-repeat;
+    background: url(../media/hero_banner.png) center / cover no-repeat;
 }
 
 .hero-content {
