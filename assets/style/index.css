@@ -6,6 +6,16 @@
     height: 100%;
 }
 
+.map {
+    height: 50svh;
+    width: 50%;
+}
+
+.mapboxgl-ctrl-bottom-left, 
+.mapboxgl-ctrl-bottom-right {
+    display: none !important;
+}
+
 /**********************************/
 /*            Header              */
 /**********************************/
