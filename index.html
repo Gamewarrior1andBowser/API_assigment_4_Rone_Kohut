@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./assets/style/index.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"/>
+        <link rel="icon" href="./assets/media/favicon.jpg" type="image/x-icon">
+        <title>Waddle shipping</title>
+        <script src="./assets/script/app.js" defer></script>
+    </head>
+    <body>
+        <header>
+        <div class="header-bg-container">
+            <div class="header-master-container">
+                 <div class="company-header-bg">
+                    <div class="container">
+                        <div class="company-header-container">
+                            <div class="company-logo-name">
+                                <img src="./assets/media/favicon.jpg" alt="logo">
+                                <h1>Waddle Shipping</h1>
+                            </div>
+                            <div class="search-container">
+                                <form action="" method="POST">
+                                    <div class="search-wrapper">
+                                        <span class="search-icon">⌕</span>
+                                        <input type="text" placeholder="Search" class="search-bar">
+                                    </div>
+                                </form>
+                            </div>
+                            <nav>
+                                <ul>
+                                    <a class="main-nav" href="#overlay"><li>Home</li></a>
+                                    <a class="main-nav" href="#about-section"><li>About</li></a>
+                                    <a class="main-nav" href="#contact"><li>Contact</li></a>
+                                </ul>
+                            </nav>
+                            <i class="fa-solid fa-circle-user"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="hero">
+            <div id="overlay"></div>
+            <div class="hero-content">
+                <div class="hero-flex-col">
+                    <h2>One package at a time, Dee-livered with effeciency!</h2>
+                    <div class="hero-buttons">
+                        <a href="#track"><div id="shop">Track a Package</div></a>
+                        <a href="#about-section"><div id="about-us">About us</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+            </div>
+            <div class="about" id="about-section">
+                <div class="about-content-container">
+                    <div>
+                        <h3>About Waddle Shipping</h3>
+                        <p>Here at Waddle Shipping, we bring you the guarentee that your packages will arrive to it's destination safely. We ship anywhere without heavy shipping costs. Safety and Affordability all in one place, so you can relax with the knowledge that we've got your back. Whether it's Quality, Safety or Pricing, we want you to choose us.</p>
+                        <div class="learn-more"><a href="details.html">Learn more!</a></div>
+                    </div>
+                    <img src="./assets/media/character.png" alt="Employee">
+                </div>
+            </div>
+            <section>
+                <div class="deal-container" id="products">
+                    <h3>Our High Quality Packages</h3>
+                    <div class="deals">
+                        <div class="deal-item">
+                            <img src="./assets/media/package_2.jpg" alt="package side" height="200" width="200">
+                            <div>
+                                <p>Multisized packages.</p>
+                                <p>Can fit up to 5ft x 5ft items.</p>
+                            </div>
+                        </div>
+                        <div class="deal-item">
+                            <img src="./assets/media/package_1.jpg" alt="package front" height="200" width="200">
+                            <div>
+                                <p>Built-in security and tracking.</p>
+                                <p>Prevents theft, damage or loss.</p>
+                            </div>
+                        </div>
+                        <div class="deal-item">
+                            <img src="./assets/media/package_3.jpg" alt="package back" height="200" width="200">
+                            <div>
+                                <p>Tough, durable material.</p>
+                                <p>Able to withstand any weather.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="deal-container" id="Track">
+                    <h3>Track your package with ease!</h3>
+                    <form class="contact-form" novalidate>
+                    <div class="form-flex">
+                        <div class="left-side-form">
+                            <div class="form-info">
+                                <input class="form-input" type="text" id="name" name="name" required minlength="2" placeholder="Full Name">
+                            </div>
+                            <div class="form-info">
+                                <input class="form-input" type="email" id="email" name="email" required placeholder="Email@example.com">
+                            </div>
+                            <div class="form-info">
+                                <input class="form-input" type="code" id="code" name="code" required placeholder="6-number code">
+                            </div>
+                        </div>
+                        <div id="map" class="map">
+                    </div>
+                    </div>
+                    <button type="submit" class="form-submit">Track Package</button>
+                </form>
+                </div>
+            </section>
+            <section class="contact-section" id="contact">
+                <h3>Contact Us</h3>
+                <form class="contact-form" novalidate>
+                    <div class="form-flex">
+                        <div class="left-side-form">
+                            <div class="form-info">
+                                <input class="form-input" type="text" id="name" name="name" required minlength="2" placeholder="Full Name">
+                            </div>
+                            <div class="form-info">
+                                <input class="form-input" type="email" id="email" name="email" required placeholder="Email@example.com">
+                            </div>
+                            <div class="form-info">
+                                <select class="form-input" id="subject" name="subject" required>
+                                    <option value="">Select a Topic</option>
+                                    <option value="order">Order Issue</option>
+                                    <option value="return">Return/Exchange</option>
+                                    <option value="general">General</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-info">
+                            <textarea id="message" name="message" required minlength="10" placeholder="Enter your message here..." rows="5"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-info">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <label class="consent" for="consent">I agree to the terms of service and privacy policy</label>
+                    </div>
+                    <button type="submit" class="form-submit">Send Message</button>
+                </form>
+            </section>
+        </div>
+    </main>
+        <footer>
+            <div class="footer-flex">
+                <div class="footer-flex-col">
+                    <h4>Help</h4>
+                    <p>Get help</p>
+                    <p>Order Status</p>
+                    <p>Returns</p>
+                    <p>Contact Us</p>
+                </div>
+                <div class="footer-flex-col">
+                    <h4>Resources</h4>
+                    <p>Find a Warehouse</p>
+                    <p>Feedback</p>
+                    <p>Join the crew</p>
+                </div>
+                <div class="footer-flex-col">
+                    <h4>Company</h4>
+                    <p>About Us</p>
+                    <p>News</p>
+                    <p>Careers</p>
+                    <p>Invest</p>
+                    <p>Work with Us</p>
+                </div>
+            </div>
+            <p id="copyright">&copy; 2025 Waddle shipping, Inc. All rights reserved</p>
+        </footer>
+    </body>
+</html>
